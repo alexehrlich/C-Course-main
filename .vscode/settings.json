@@ -1,6 +1,6 @@
 {
-    "compilerC": "gcc",
-    "compilerCpp": "g++",
-    "debuggerCpp": "gdb",
+    "compilerC": "clang",
+    "compilerCpp": "clang++",
+    "debuggerCpp" : "lldb",
     "make": "make"
 }
