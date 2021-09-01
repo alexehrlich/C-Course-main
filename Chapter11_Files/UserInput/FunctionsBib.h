@@ -1,3 +1,7 @@
+//IncludeGuards: Wird durch mehrere Inkludierungen nur 1x reingeladen
+#ifndef FUNCTIONS_BIB_H
+#define FUNCTIONS_BIB_H
+
 struct Vector
 {
     int* data;
@@ -31,3 +35,5 @@ void printVector(Vector* vec);
 int** createMatrix(unsigned int rows, unsigned int cols, int value);
 
 int** transposeMatrix(int** matrix_input, unsigned int rows, unsigned int cols);
+
+#endif

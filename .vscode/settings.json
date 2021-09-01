@@ -2,5 +2,6 @@
     "compilerC": "gcc",
     "compilerCpp": "g++",
     "debuggerCpp": "gdb",
-    "make": "make"
+    "make": "make",
+    "C_Cpp.errorSquiggles": "Disabled"
 }
